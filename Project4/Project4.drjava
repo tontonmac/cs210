@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20120818-r5686">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="HuffmanTree.java" package="" timestamp="10-Dec-2012 22:26:02">
+        <select from="4704" to="4704"/>
+        <scroll column="2598" row="0"/>
+      </file>
+      <file name="HuffmanNode.java" package="" timestamp="15-Nov-2012 16:51:30">
+        <select from="4704" to="4704"/>
+        <scroll column="2598" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

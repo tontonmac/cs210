@@ -1,0 +1,7 @@
+Why did you need to write a remove method in the SudokuIterator class 
+even though your program never actually needs to remove any cells from the puzzle?
+
+An UnsupportedOperationException will be thrown if the collection does not support remove().
+
+Explain how long it takes your isSolution method to run on different sized puzzles in terms of Big-O notation.
+
