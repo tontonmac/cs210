@@ -1,0 +1,33 @@
+Mohamed Camara
+CS210
+Lab#1 report:
+	 _________________________                 ________________________________
+	|    BingoCard		      |               |          BingoGame             |
+	|=========================|               |================================|
+	|- card : BingoSquare[][] |---------------|+ main(args : String[]) : void  |
+    |=========================|               |________________________________|
+    |+ BingoCard()            |
+   	|+ toString() : String    |
+    |_________________________|
+			|
+			|
+			 ------------------------------------------------
+								                             |
+								                             |
+								                             |
+     ______________________________________           __________________________
+	|          BingoNumber                 |         |     BingoSquare          |
+	|======================================|         |==========================|
+	|- letter : char                       |---------|+BingoSquare(number : int)|
+	|- number : int                        |         |__________________________|
+	|--------------------------------------|
+	|+ BingoNumber(numer : int)            |
+	|+ equals(that : BingoNumber) : boolean|
+	|+ toString() : String                 |
+	|______________________________________|
+
+
+
+When i compile the project as provided, I get an error message notifying me that the BingoCard class does not exist.
+
+
