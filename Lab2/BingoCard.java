@@ -53,7 +53,7 @@ public class BingoCard
 		}
 		return s;
 	}
-	public boolean cover(BingoSquare mycover)
+	public boolean cover(BingoBall mycover)
 	{
 		boolean covered = true;
 
@@ -63,7 +63,7 @@ public class BingoCard
 			{
 				if(mycover.equals(card[i][j]))
 				{
-					cover[i][j] = null;
+					card[i][j] = null;
 					return true;
 				}
 			}
@@ -76,53 +76,40 @@ public class BingoCard
 
 		//row checking
 
-		for(int i=0; i<card.length; i++)
+		for(int i=0; i<card.length;)
 		{
 			for(int j=0; j<card[i].length; j++)
 			{
 				if(card[i][j] != null)
 				return false;
 			}
-			if(false)
+			
 				return bingo;
 		}
 		//column checking
 
-		for(i=0; i<card.length; i++)
+		for(int i=0; i<card.length;)
 		{
 			for(int j=0; j<card[i].length; j++)
 			{
 				if(card[j][i] != null)
 					return false;
 			}
-			if(false)
+		
 				return bingo;
 		}
 		//left diagonal checking
 
-		for(int i=0; i<card.lenght; i++)
+		for(int i=0; i<card.length; i++)
 		{
 			if(card[i][i] != null)
 				return false;
 		}
-		if(false)
+	
 			return bingo;
-
-		//right diagonal checking
-
-		for(int i=0; i<card.length; i++)
-		{
-			if(card[i][j] != null)
-					return false;
-			j--;
-			}
-		if(false)
-			return bingo;
-
-		return false;
-		}
 	}
 }
+
 
 	
 
