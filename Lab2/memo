@@ -1,5 +1,7 @@
 Mohamed Camara
 Lab#2 Report
 
-The program does not compile because the BingoBall class does not exist.
+The program does not compile because the BingoBall class does not exist and the cover and the hasBingo method are required by the BingoGame class in order to compile.
+
+yes, both cover() and hasBingo() always get called. Because, the cover() needs to check whether or not there are null and if they are, the hasBingo() check if it is lined up and return bingo. 
 
